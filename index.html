@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Agent Walker vs Skibidi Toilets</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="description" content="An exciting adventure awaits you, where you will become an agent Cameraman, and your faithful companion is a Walker with 4 mechanical arms. 
+       Your every step is filled with dynamics and action. Your four weapon hands are ready for battle, whether it be machine guns, miniguns or grenade launchers.
+       Your adventure is just beginning, and you have to become a real hero in the fight against Skibidi Toilets! Are you ready to take on this absurd threat and have fun with battles and explosions?">
+  <meta name="keywords" content="guns, shoot-em-up, arena, battlefield">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Agent Walker vs Skibidi Toilets">
+  <meta property="og:description" content="An exciting adventure awaits you, where you will become an agent Cameraman, and your faithful companion is a Walker with 4 mechanical arms. 
+       Your every step is filled with dynamics and action. Your four weapon hands are ready for battle, whether it be machine guns, miniguns or grenade launchers.
+       Your adventure is just beginning, and you have to become a real hero in the fight against Skibidi Toilets! Are you ready to take on this absurd threat and have fun with battles and explosions?">
+  <meta property="og:image" content="https://img.gamedistribution.com/fe27fd48297444f3bf71cb1eb7d905e7-512x512.jpg">
+  <meta property="og:url" content="https://html5.gamedistribution.com/fe27fd48297444f3bf71cb1eb7d905e7/">
+  <link rel="canonical" href="https://html5.gamedistribution.com/fe27fd48297444f3bf71cb1eb7d905e7/">
+  <link rel="manifest" href="manifest_1.5.17.json">
+  <link rel="preconnect" href="https://html5.api.gamedistribution.com">
+  <link rel="preconnect" href="https://game.api.gamedistribution.com">
+  <link rel="preconnect" href="https://pm.gamedistribution.com">
+  <style>
+    html { height: 100%; }
+    body { margin: 0; padding: 0; background-color: #000; overflow: hidden; height: 100%; }
+    #game { position: absolute; top: 0; left: 0; width: 100%; height: 100%; box-sizing: border-box; }
+  </style>
+</head>
+<body>
+  <iframe id="game" frameborder="0" allow="autoplay" allowfullscreen seamless scrolling="no"></iframe>
+  <script type="text/javascript">
+    (function () {
+      function GameLoader() {
+        this.init = function () {
+          this._container = document.getElementById("game");
+          this._container_initialized = false;
+          this._loadGame();
+        };
+
+        this._loadGame = function () {
+          if (this._container_initialized) {
+            return;
+          }
+
+          const gameSrc = "//html5.gamedistribution.com/rvvASMiM/fe27fd48297444f3bf71cb1eb7d905e7/index.html";
+          this._container.src = gameSrc;
+
+          this._container.onload = this._onFrameLoaded.bind(this);
+          this._container_initialized = true;
+        };
+
+        this._onFrameLoaded = function () {
+          const container = this._container;
+          setTimeout(function () {
+            try {
+              container.contentWindow.focus();
+            } catch (err) {}
+          }, 100);
+        };
+      }
+      new GameLoader().init();
+    })();
+  </script>
+</body>
+</html>
