@@ -1,0 +1,23 @@
+{
+     "short_name": "Agent Walker vs Skibidi Toilets",
+     "name": "Agent Walker vs Skibidi Toilets",
+     "icons": [
+       {
+         "src": "https://img.gamedistribution.com/fe27fd48297444f3bf71cb1eb7d905e7-512x512.jpg",
+         "type": "image/jpeg",
+         "sizes": "512x512",
+         "purpose": "any"
+       },
+       {
+         "src": "https://img.gamedistribution.com/fe27fd48297444f3bf71cb1eb7d905e7-512x512.jpg",
+         "type": "image/png",
+         "sizes": "144x144",
+         "purpose": "any"
+       }
+     ],
+     "start_url": "/fe27fd48297444f3bf71cb1eb7d905e7/index.html",
+     "background_color": "#3367D6",
+     "display": "standalone",
+     "scope": "/fe27fd48297444f3bf71cb1eb7d905e7/",
+     "theme_color": "#3367D6"
+   }
